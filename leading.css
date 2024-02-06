@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:cursive ;
+}
+.cont{
+    height: 100vh;
+    width: 100%;
+    background: #65D4E9;
+    background: conic-gradient(from 45deg, #65D4E9, #0A82E1);
+}
+.cont .nav{
+    /* background-color: #fd08fd; */
+    display: flex;
+    height: 13vh;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav .navlist{
+    display: flex;
+    
+    gap: 3rem;
+}
+.navlist li {
+    list-style: none;
+}
+.navlist a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+.nav button{
+    background-color: rgb(255, 74, 74);
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    padding:15px ;
+    letter-spacing: 0.2rem;
+    border-radius: .4rem;
+
+}
+.nav button:hover{
+    background-color: rgb(255, 116, 116);
+    cursor: pointer;
+}
+
+.navlist a:hover{
+    color: rgb(129, 129, 129);
+    cursor: pointer;
+}
+
+.item{
+    /* background-color: aqua; */
+    display: flex;
+    height: 88vh;
+    align-items: center;
+    width: 97%;
+    margin-left: 55px;
+    gap: 4rem;
+}
+.imgbox img{
+    height: 15rem;
+}
+.imgbox img:hover{
+    transform:scale(1.03);
+}
+.fm1 img{
+    height: 5rem;
+    transition: 400ms;
+}
+.fm1 img:hover{
+    transform:scale(1.03);
+}
+.fm img{
+    height: 5rem;
+    transition: 400ms;
+}
+.fm img:hover{
+    transform:scale(1.03);
+}
+#png1 img:hover{
+    transform:scale(1.03);
+}
+#png1 img{
+    height: 5rem;
+    transition: 400ms;
+}
+#png2 img{
+    height: 5rem;
+    transition: 400ms;
+}
+#png2 img:hover{
+    transform:scale(1.03);
+}
+
+.cont1 h1{
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+.cont span{
+    color: rgb(255, 74, 74);
+}
+.cont p{
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.3rem 0;
+    letter-spacing: 0.14rem;
+}
+.cont1 button{
+    background-color: rgb(255, 74, 74);
+    border: .1rem solid rgb(255, 74, 74);
+    font-size: 1.1rem;
+    color:black;
+    padding: .5rem 1.4rem;
+    letter-spacing: 0.2rem;
+    border-radius: .4rem;
+    transition: 0.5s ease-in-out;
+
+}
+.cont1 button:hover{
+    background-color: rgb(255, 74, 74);
+    color: #262525;
+    box-shadow: 0 0 1rem rgb(255, 74, 74);
+    cursor: pointer;
+}
+.feature{
+    /* background-color: wheat; */
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.feature .fm ,.fm1{
+    border-left: 0.2rem solid rgb(255 ,74 ,74);
+    padding: 0.2rem 0.8rem;
+
+}
+.fm:nth-child(2) ,.fm:nth-child(4){
+    margin-left: 3rem;
+}
+.fm,.fm1 h3{
+    color: white;
+    letter-spacing: .2rem;
+}
